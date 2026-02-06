@@ -1,0 +1,11 @@
+# Ignore the heavy backend virtual environment
+backend/venv/
+__pycache__/
+
+# Ignore the heavy frontend libraries
+frontend/node_modules/
+frontend/dist/
+
+# CRITICAL: Ignore your secrets
+.env
+backend/.env
